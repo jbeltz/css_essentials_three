@@ -1,0 +1,69 @@
+body {
+    background: rgb(54, 0, 98);
+    font-family: 'Ibarra Real Nova', serif;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header {
+    display: flex;
+    max-width: 100%;
+    height: 110px;
+    background: #3e3a3a;
+    border: solid #b5b5b5;
+}
+
+h1 {
+    text-align: center;
+    color: #eed6d6;
+    font-size: 6vw;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto; 
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    margin-top: 3em;
+    border: solid #b5b5b5;
+    background: #3e3a3a;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.box-zero {
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    padding: 0.5em;
+    height: 400px;
+    min-height: 200px;
+}
+
+.box-one {
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    padding: 0.5em;
+    height: 300px;
+    min-height: 200px;
+}
+
+.box-two {
+    display: flex;
+    flex: 1;
+    max-width: 100%;
+    padding: 0.5em;
+    height: 200px;
+    min-height: 200px;
+}
+
+.homer {
+    float: left;
+    min-width: 120px;
+    min-height: 110px;
+}
